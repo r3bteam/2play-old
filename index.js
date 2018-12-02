@@ -445,7 +445,7 @@ client.on('message', message => {
 
 client.on('message', msg => {
 
-	if (msg.content.startsWith(PREFIX + 'play')) {
+	if (msg.content.startsWith(PREFIX + 'join')) {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
